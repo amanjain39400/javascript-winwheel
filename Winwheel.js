@@ -87,7 +87,7 @@ function Winwheel(options, drawWheel)
     // ------------------------------------------
     // If the id of the canvas is set, try to get the canvas as we need it for drawing.
     if (this.canvasId) {
-        this.canvas = document.getElementById(this.canvasId);
+        this.canvas=document.getElementById(this.canvasId);
 
         if (this.canvas) {
             // If the centerX and centerY have not been specified in the options then default to center of the canvas
